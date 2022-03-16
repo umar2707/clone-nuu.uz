@@ -149,11 +149,11 @@ header nav ul p {
   justify-content: end;
 }
 
-.row {
+/* .row {
   height: 35px;
   bottom: -1px;
   margin-right: 20px;
-}
+} */
 
 .row-ul {
   position: relative;
@@ -340,6 +340,9 @@ list-style-type: none;
 }
 .footer__end{
   background-color: var(--bg-site);
+}
+.footer__end hr{
+  color: #fff;
 }
 .footer__end .nav{
   position: relative;
