@@ -341,3 +341,16 @@ list-style-type: none;
 .footer__head-link:hover{
   color: #314573;
 }
+.footer__end{
+  background-color: var(--bg-site);
+}
+.footer__end .nav{
+  position: relative;
+}
+.footer__end .nav::before{
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 10px;
+  background-color: #333;
+}
