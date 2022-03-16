@@ -4,7 +4,12 @@
   text-decoration: none;
   list-style: none;
 }
-
+:root {
+  --text-color: #546DA5;
+  --bg-site: #314573;
+  --grey: #F2F2F2;
+  --white: #fff;
+}
 body {
   background: url(../img/univer.jpg) no-repeat center center / cover;
   background-attachment: fixed;
@@ -132,4 +137,61 @@ header nav ul p {
   color: #546da5;
   font-size: 14px;
   font-family: lato;
+}
+/* Footer */
+.footer{
+  background-color: var(--bg-site);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer__head{
+  position: relative;
+  z-index: 2;
+}
+.footer__head-btn{
+  outline: none;
+  border: none;
+  color: #fff;
+  background: transparent;
+  font-weight: 700;
+}
+.footer__head-social li .fab{
+  color: var(--bg-site);
+}
+.footer__head-li{
+  padding-top: 10px;
+}
+.footer__center{
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 20px 0px;
+  display: none;
+  transition: 1s all ease-in;
+}
+.footer__center.active{
+  display: block;
+}
+.back-white{
+  background-color: #fff;
+  width: 100%;
+  height: 188px;
+  top: 58px;
+  z-index: 1;
+  position: absolute;
+  display: none;
+}
+.back-white.active{
+  display: block;
+}
+.footer__head-link{
+  color: var(--bg-site) !important;
+  padding: 0 5px;
+  line-height: 20px !important;
+  font-size: 14px;
+}
+.footer__head-link:hover{
+  color: #314573;
 }
