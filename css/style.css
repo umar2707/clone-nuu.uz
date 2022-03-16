@@ -14,11 +14,10 @@ body {
   background: url(../img/univer.jpg) no-repeat center center / cover;
   background-attachment: fixed;
   width: 100%;
-  height: 100vh;
+  height: 105vh;
   font-family: "Lato", sans-serif;
   position: relative;
 }
-
 .marquee {
   white-space: nowrap;
   overflow: hidden;
@@ -241,7 +240,6 @@ margin-left: 15px;
 }
 
 .bar-container {
-  margin-top: 50px;
   padding:0 12px 0 12px;
 }
 .navbar {
@@ -334,11 +332,12 @@ list-style-type: none;
 .back-white{
   background-color: #fff;
   width: 100%;
-  height: 188px;
+  height: 202px;
   top: 64px;
   z-index: 1;
   position: absolute;
   display: none;
+  transition: .5s all;
 }
 .back-white.active{
   display: block;
@@ -402,6 +401,10 @@ list-style-type: none;
 .sign__btn:hover{
   background-color: var(--text-color);
   color: #fff;
+}
+.footer__end hr{
+  margin: 0 !important;
+  padding: 0 !important;
 }
 /* modal oynalar */
 .modal__cabinet{
@@ -484,4 +487,8 @@ list-style-type: none;
   font-weight: 400;
   font-size: 14px;
   margin-top: 1rem;
+}
+/* consultat */
+.consultat{
+  
 }
