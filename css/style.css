@@ -240,6 +240,7 @@ margin-left: 15px;
   margin: 0;
   padding: 0;
   height: 50px;
+  position: relative;
 }
 
 .nuu-img {
@@ -249,12 +250,14 @@ margin-left: 15px;
 }
 
 .navbar-ul {
+  position: absolute;
+  right: 5%;
   height: 50px;
   width: 989px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 233px;
+  /* margin-left: 233px; */
   margin-bottom: 0;
 }
 
