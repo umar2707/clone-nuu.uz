@@ -19,7 +19,9 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+   <!-- Header section  -->
+
+   <header>
     <div class="test">
      <div class="marquee">
        <span >
@@ -38,29 +40,38 @@
              <a href="gerb.html">
                <img width="20px" height="19px" src="img/arms.png" alt="">
              </a>
-             <a href="#">
+             <a href="sound.html">
                <img src="img/sound.svg" alt="">
              </a>
          </div>
          <ul class="d-flex align-items-center justify-content-between">
-           <a href="#" class="d-flex align-items-center">
+           <a href="https://hstudent.nuu.uz/dashboard/login" target="blank" class="d-flex align-items-center">
              <img width="20px" height="20px" src="img/mortarboard.svg" alt="">
              <p> Onlayn o’qitish tizimi</p>
            </a>
-           <a href="#" class="d-flex align-items-center">
+           <a href="http://lib.nuu.uz/" class="d-flex align-items-center" target="blank" class="d-flex align-items-center">
              <img width="18px" height="18px" src="img/book.svg" alt="">
              <p> Raqamli kutubxona</p>
            </a>
-           <a href="#" class="d-flex align-items-center">
+           <a href="https://nuu.uz/anthem/ " target="blank" class="d-flex align-items-center">
              <img width="21px" height="12px" src="img/eye.svg" alt="">
              <p> Maxsus imkoniyatlar</p>
            </a>
          </ul>
-         <a href="#" class="language d-flex align-items-center">
+         <a href="#" id="navbarDropdown" class="language d-flex align-items-center  nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            <img width="20px" height="18px" src="img/language.svg" alt="">
            <p>Uzb</p>
-           <img width="11px" height="9px"  src="img/arrow-down-small.svg" alt="">
+           
          </a>
+         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <li>
+             <a class="dropdown-item" href="#">Рус
+             </a>
+           </li>
+           <li>
+             <a class="dropdown-item" href="#">Eng</a>
+           </li>
+         </ul>
          <div class="header-contact">
            <a href="https://t.me/nuu_uz"> <i class="fab fa fa-telegram"></i></a>
            <a href="https://www.instagram.com/nuu.uz"><i class="fab fa fa-instagram"></i></a>
@@ -69,59 +80,268 @@
        </nav>
      </div>
    </header>
- <!-- /Header -->
+  <!-- /Header -->
+ 
+  <!-- fleg section --> 
+  <main>
 
- <!-- fleg section --> 
- <main>
-   <div class="container">
-  <section class="info-fleg" >
-      <div class="info-fleg-item">
-        <h4>O‘ZBEKISTON RESPUBLIKASINING DAVLAT BAYROG‘I</h4>
-        <img class="rounded mx-auto d-block mb-4" src="img/big-flag.jpg" alt="">
-        <p>"O‘zbekiston Respublikasi Davlat bayrog‘i to‘g‘risida"gi qonun 1991 yil 18-noyabrda O‘zbekiston Respublikasi Oliy Kengashining navbatdan tashqari o‘tkazilgan VII sessiyasida qabul qilingan.</p>
-        <p>Davlat bayrog‘i va uning ramzi bugungi O‘zbekiston sarhadida qadimda mavjud bo‘lgan davlatlar bilan tarixan bog‘liqligini anglatadi hamda respublikaning milliy-madaniy an’analarini o‘zida mujassamlashtiradi.</p>
-        <p>Bayroqdagi moviy rang tiriklik mazmuni aks etgan mangu osmon va obihayot ramzi. Timsollar tilida bu - yaxshilikni, donishmandlikni, halollikni, shon-shuhrat va sadoqatni bildiradi. Binobarin, Amir Temur davlati bayrog‘ining rangi ham moviy rangda edi.</p>
-        <p>Bayroqdagi oq rang - muqaddas tinchlik ramzi bo‘lib, u kun charog‘onligi va koinot yoritkichlari bilan uyg‘unlashib ketadi. Oq rang – poklik, beg‘uborlik, soflikni, orzu va hayollar tozaligi, ichki go‘zallikka intilishning timsoli.</p>
-        <p>Yashil rang – tabiatning yangilanish ramzi. U ko‘pgina xalqlarda navqironlik, umid va shodumonlik timsoli hisoblanadi.</p>
-        <p>
-          Qizil chiziqlar – vujudimizda jo‘shib oqayotgan hayotiy qudrat irmoqlarini anglatadi.
-        </p>
-        <p>
-          Navqiron yarim oy tasviri bizning tarixiy an’analarimiz bilan bog‘liq. Ayni paytda u qo‘lga kiritilgan mustaqilligimiz ramzi ham.
-        </p>
-        <p>
-          Yulduzlar barcha uchun ruhoniy, ilohiy timsol sanalgan. O‘zbekiston Respublikasi Davlat bayrog‘idagi 12 yulduz tasviri ham tarixiy an’analarimiz, qadimgi yilnomamizga bevosita aloqador. Bizning o‘n ikki yulduzga bo‘lgan e’tiborimiz O‘zbekiston sarhadidagi qadimgi davlatlar ilmiy tafakkurida nujum ilmi taraqqiy etganligi bilan ham izohlanadi.
-        </p>
-        <p>
-          Davlat bayrog‘imizdagi 12 yulduz tasvirini o‘zbek xalqi madaniyatining qadimiyligi, uning komillikka, o‘z tuprog‘ida saodatga intilishi ramzi sifatida tushunish lozim.
-        </p>
+     <!--================================= SITE NAVBAR ================================  -->
+     <section class="container">
+      <div class="list-menu">
+        <nav class="row">
+          <ul class="row-ul ">
+            <li class="col-item-list">  <a href="" class="menus navbar-link">O'zMU raqamlarda</a></li>
+            <li class="col-list">  <a href="https://nuu.uz/admission/" class="menu navbar-link">Qabul 2021</a> </li>
+            <li class="col-list">  <a href="https://nuu.uz/departments/" class="menu navbar-link">Fakultetlar</a> </li>
+            <li class="col-list">  <a href="https://interaktiv.nuu.uz/" class="menu navbar-link">Interaktiv xizmatlar</a> </li>
+            <li class="col-list">  <a href="http://rm.nuu.uz/" class="menu navbar-link">Virtual qabulxona</a> </li>
+          </ul>
+        </nav>
+        <form class="section-form col-2" action="" method="get">
+          <input class="menu-input" type="text" name="text" placeholder="Qidiruv">
+          <button type="submit"  class="menu-btn"><img src="./img/search.svg" width="12" height="12" alt="Seatch"></button>
+        </form> 
       </div>
     </section>
+    <section>
+      <div class="container bar-container">
+        <nav class="navbar">
+          <a class="nuu-img" href="#">
+            <img src="./img/nuu-logo.png" width="91" height="91" alt="nuu logo img">
+          </a>
+          <ul class="navbar-ul">
+            <li class="navbar-list">
+              <a href="https://nuu.uz/category/news/" class="navbar-link">Barcha yangiliklar</a>
+            </li>
+            <li class="navbar-list">
+              <a href="https://nuu.uz/tuzilma/" class="navbar-link">Tuzilma</a>
+            </li>
+            <li class="navbar-list">
+              <a href="https://nuu.uz/research/" class="navbar-link">Ilmiy faoliyat</a>
+            </li>
+            <li class="navbar-list">
+              <a href="https://nuu.uz/xalqaro-aloqalar/" class="navbar-link">Xalqaro aloqalar</a>
+            </li>
+            <li class="navbar-list">
+              <a href="https://nuu.uz/student-life/" class="navbar-link">Madaniy-ma'rifiy faoliyat</a>
+            </li>
+            <li class="navbar-list">
+              <a href="https://nuu.uz/moliyaviy-faoliyat/" class="navbar-link">Moliyaviy faoliyat</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+<!--================================= SITE NAVBAR ================================ / -->
+    <div class="container">
+   <section class="info-fleg" >
+       <div class="info-fleg-item">
+         <h4>O‘ZBEKISTON RESPUBLIKASINING DAVLAT BAYROG‘I</h4>
+         <img class="rounded mx-auto d-block mb-4" src="img/big-flag.jpg" alt="">
+         <p>"O‘zbekiston Respublikasi Davlat bayrog‘i to‘g‘risida"gi qonun 1991 yil 18-noyabrda O‘zbekiston Respublikasi Oliy Kengashining navbatdan tashqari o‘tkazilgan VII sessiyasida qabul qilingan.</p>
+         <p>Davlat bayrog‘i va uning ramzi bugungi O‘zbekiston sarhadida qadimda mavjud bo‘lgan davlatlar bilan tarixan bog‘liqligini anglatadi hamda respublikaning milliy-madaniy an’analarini o‘zida mujassamlashtiradi.</p>
+         <p>Bayroqdagi moviy rang tiriklik mazmuni aks etgan mangu osmon va obihayot ramzi. Timsollar tilida bu - yaxshilikni, donishmandlikni, halollikni, shon-shuhrat va sadoqatni bildiradi. Binobarin, Amir Temur davlati bayrog‘ining rangi ham moviy rangda edi.</p>
+         <p>Bayroqdagi oq rang - muqaddas tinchlik ramzi bo‘lib, u kun charog‘onligi va koinot yoritkichlari bilan uyg‘unlashib ketadi. Oq rang – poklik, beg‘uborlik, soflikni, orzu va hayollar tozaligi, ichki go‘zallikka intilishning timsoli.</p>
+         <p>Yashil rang – tabiatning yangilanish ramzi. U ko‘pgina xalqlarda navqironlik, umid va shodumonlik timsoli hisoblanadi.</p>
+         <p>
+           Qizil chiziqlar – vujudimizda jo‘shib oqayotgan hayotiy qudrat irmoqlarini anglatadi.
+         </p>
+         <p>
+           Navqiron yarim oy tasviri bizning tarixiy an’analarimiz bilan bog‘liq. Ayni paytda u qo‘lga kiritilgan mustaqilligimiz ramzi ham.
+         </p>
+         <p>
+           Yulduzlar barcha uchun ruhoniy, ilohiy timsol sanalgan. O‘zbekiston Respublikasi Davlat bayrog‘idagi 12 yulduz tasviri ham tarixiy an’analarimiz, qadimgi yilnomamizga bevosita aloqador. Bizning o‘n ikki yulduzga bo‘lgan e’tiborimiz O‘zbekiston sarhadidagi qadimgi davlatlar ilmiy tafakkurida nujum ilmi taraqqiy etganligi bilan ham izohlanadi.
+         </p>
+         <p>
+           Davlat bayrog‘imizdagi 12 yulduz tasvirini o‘zbek xalqi madaniyatining qadimiyligi, uning komillikka, o‘z tuprog‘ida saodatga intilishi ramzi sifatida tushunish lozim.
+         </p>
+       </div>
+     </section>
+
+       <!-- Footer -->
+  <footer class="footer w-100 ">
+    <div class="container"> 
+      <div class="footer__head">
+        <ul class="footer__head-ul row justify-content-around">
+          <li class="footer__head-li col-xl-2 col-lg-6 col-md-12 col-12">
+            <img src="./img/arrow.svg" alt="">
+            <button onclick="footCenter()" class="footer__head-btn text-start">ME'MORIY <br>hujjatlar</br></button>
+            <ul class=" flex-column footer__center">
+              <li>
+                <a class="footer__head-link " href="#">Asosiy me'yoriy hujjatlar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+            <img src="./img/arrow.svg" alt="">
+            <button onclick="footCenter()" class="footer__head-btn text-start">HUJJAT <br>topshirish</br></button>
+            <ul class=" flex-column footer__center">
+              <li >
+                <a class="footer__head-link " href="#">Bakalavriat</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Magistratura</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Kechki ta’lim</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Sirtqi ta’lim</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Ikkinchi mutaxassislik</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+            <img src="./img/arrow.svg" alt="">
+            <button onclick="footCenter()" class="footer__head-btn text-start">TALABALAR <br>shaharchasi</br></button>
+            <ul class=" flex-column footer__center">
+              <li >
+                <a class="footer__head-link " href="#">Ijtimoiy obyektlar</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Tadbirlar</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Tashrif buyurish</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Tashkilotlar</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Xaritada ko'rish</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+            <img src="./img/arrow.svg" alt="">
+            <button onclick="footCenter()" class="footer__head-btn text-start">USLUBIY <br>ta'minot</br></button>
+            <ul class=" flex-column footer__center">
+              <li >
+                <a class="footer__head-link " href="#">Bakalavriat</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Magistratura</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">O'quv adabiyotlari</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Yangi adabiyotlar(QR)</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Dars jadvali(ZOOM)</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Yakuniy nazorat</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+            <img src="./img/arrow.svg" alt="">
+            <button onclick="footCenter()" class="footer__head-btn text-start">BOG'LANISH <br>ma'lumotlari</br></button>
+            <ul class=" flex-column footer__center">
+              <li >
+                <a class="footer__head-link " href="#">Aloqa</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Savol-javob</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="#">Press-xizmat</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+            <img src="./img/arrow.svg" alt="">
+            <button onclick="footCenter()" class="footer__head-btn text-start">IJTIMOIY <br>tarmoqlar</br></button>
+            <ul class=" flex-column footer__head-social footer__center">
+              <li>
+                <i class="fab fa fa-telegram"></i>
+                <a class="footer__head-link " href="#">Telegram</a>
+              </li>
+              <li>
+                <i class="fab fa fa-instagram"></i>
+                <a class="footer__head-link " href="#">Instagram</a>
+              </li>
+              <li>
+                <i class="fab fa fa-facebook"></i>
+                <a class="footer__head-link " href="#">Facebook</a>
+              </li>
+              <li>
+                <a class="footer__head-link " href="http://www.uz/rus/toprating/cmd/stat/id/1834">
+                <img src="http://www.uz/plugins/top_rating/count/cnt.png?id=1834&amp;r=https%3A//nuu.uz/&amp;pg=https%3A//nuu.uz/&amp;c=Y&amp;j=N&amp;wh=1366x768&amp;px=24&amp;js=1.3&amp;col=314573&amp;t=FFFFFF&amp;p=314573" width="88" height="31" border="0" alt="www.uz reytingi">
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="back-white">
+
+    </div>
+    <div class="footer__end">
+      <div class="container position-relative">
+        <hr>
+        <div class="d-flex align-items-center">
+          <div class="col-6">
+            <ul class="nav">
+              <li class="nav-item">
+                <a target="_blank" class="nav-link text-light" href="https://old.nuu.uz/">Eski sahifa(old.nuu.uz)</a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" class="nav-link text-light" href="https://nuu.uz/gallery/">Galereya</a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" class="nav-link text-light" href="https://nuu.uz/vacancies/">Vakansiyalar</a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" class="nav-link text-light" href="https://nuu.uz/tenders/">Tenderlar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <span class="text-light">© 2022. Mirzo Ulug’bek nomidagi O’zbekiston Milliy universiteti</span>
+          </div>
+        </div>
+      </div>
+      <div class="container position-relative">
+        <div class="cabinet">
+          <div class="cabinet__btn--group">
+            <h6 class="text-center">SHAXSIY KABINET</h6>
+              <button  class="sign__btn">Kirish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal oynalar -->
+<div class="modal__cabinet ">
+  <div class="modal__cabinet--win">
+    <span onclick="modalClose()" class="close__modal"><i class="fa-solid fa-xmark"></i></span>
+    <h4>SHAXSIY KABINETGA KIRISH</h4>
+    <p class="text-center">Shahsiy kabinet faqat universitet hodimlari ishlatishi uchun mo'ljallangan!</p>
+    <form action="" class="cabinet__form w-100">
+      <input class="cabinet__btn" type="email" placeholder="Email">
+      <input class="cabinet__btn" type="password" placeholder="Password">
+      <input onclick="modalActive()" class="cabinet__btn--submit" type="button" value="Kirish">
+    </form>
+    <h6>Parolingiz esdan chiqdimi?</h6>
+    <a href="https://nuu.uz/wp-login.php?action=lostpassword">Parolni tiklash</a>
   </div>
- </main>  
+</div>
+  <!-- Script -->
+ 
+  <script src="js/app.js"></script>  
+   </div>
+  </main>  
   
 
 
 
-  <script>
-var tit= document.title;
-     var c=0;
-     function writetitle()
-     {
-         document.title=tit.substring(0,c)
-         if (c==tit.length)
-         {
-             c=0;
-             setTimeout("writetitle()" , 1000)
-         }
-         else
-         {
-             c++;
-             setTimeout("writetitle()",200)
-         }
-     }
-     writetitle()
-  </script>
+
 </body>
 </html>
   
