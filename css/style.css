@@ -140,6 +140,8 @@ header nav ul p {
 }
 
 
+<<<<<<< HEAD
+=======
 /* ============= SITE NAVBAR ============== */
 
 .list-menu {
@@ -281,6 +283,7 @@ list-style-type: none;
 
 /* ============= SITE NAVBAR ============== / */
 
+>>>>>>> 53e8c192fa000e4ae2382dd9d5eaffc71248f30d
 
 /* Footer */
 .footer{
@@ -289,9 +292,7 @@ list-style-type: none;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 74px;
 }
-
 .footer__head{
   position: relative;
   z-index: 2;
@@ -319,12 +320,10 @@ list-style-type: none;
 }
 .footer__center.active{
   display: block;
-  
 }
-
 .back-white{
   background-color: #fff;
-  width: 100vw;
+  width: 100%;
   height: 188px;
   top: 58px;
   z-index: 1;
@@ -333,7 +332,6 @@ list-style-type: none;
 }
 .back-white.active{
   display: block;
-  width: 100%;
 }
 .footer__head-link{
   color: var(--bg-site) !important;
