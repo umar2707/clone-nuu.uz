@@ -139,9 +139,6 @@ header nav ul p {
   font-family: lato;
 }
 
-
-<<<<<<< HEAD
-=======
 /* ============= SITE NAVBAR ============== */
 
 .list-menu {
@@ -255,7 +252,7 @@ margin-left: 15px;
   position: absolute;
   right: 5%;
   height: 50px;
-  width: 989px;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -282,8 +279,6 @@ list-style-type: none;
 }
 
 /* ============= SITE NAVBAR ============== / */
-
->>>>>>> 53e8c192fa000e4ae2382dd9d5eaffc71248f30d
 
 /* Footer */
 .footer{
