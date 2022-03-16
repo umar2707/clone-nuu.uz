@@ -148,13 +148,6 @@ header nav ul p {
   right: 0;
   justify-content: end;
 }
-
-/* .row {
-  height: 35px;
-  bottom: -1px;
-  margin-right: 20px;
-} */
-
 .row-ul {
   position: relative;
   display: flex;
@@ -163,7 +156,11 @@ header nav ul p {
   background-color: #F2F2F2;
   border-radius: 5px;
 }
-
+.section-form{
+  display: flex;
+  margin-left: 2rem;
+  align-items: flex-start;
+}
 .menus {
   text-decoration: none;
   margin-left: 15px;
@@ -221,12 +218,26 @@ margin-left: 15px;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   padding-left: 15px;
+  border: none;
+  width: 35px;
+  outline: none;
+  transition: .5s all;
+  background-color: #f2f2f2;
+}
+.menu-input.active{
+  width: 200px;
 }
 .menu-btn {
   height: 35px;
   width: 35px;
   border-radius: 5px;
-  background-color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  background-color: #f2f2f2;
 }
 
 .bar-container {
@@ -287,7 +298,6 @@ list-style-type: none;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 74px;
 }
 .footer__head{
   position: relative;
