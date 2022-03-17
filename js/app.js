@@ -29,14 +29,6 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 /* ----------------- */
-// banner
-let prevBtn = document.querySelector('.prev__btn')
-let nextBtn = document.querySelector('.next__btn')
-let bannerWrap = document.querySelector('.banner__carousel-wrapper')
-
-function prevBanner(){
-
-}
 
 /* Chatra */
 (function (d, w, c) {

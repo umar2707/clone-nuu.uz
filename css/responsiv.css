@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+    .header-logo {
+      display: none;
+    }
+  
+    header nav ul a {
+      z-index: -10;
+    }
+    .open-hide {
+      display: unset;
+      position: relative;
+      left: 1000px;
+      bottom: 50px;
+    }
+  
+    .header-contact {
+      display: none;
+    }
+  
+    .language {
+      position: absolute;
+      left: 180px;
+      top: 25px;
+    }
+  }
+
+  
