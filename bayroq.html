@@ -88,7 +88,7 @@
      <!--================================= SITE NAVBAR ================================  -->
      <section class="container">
       <div class="list-menu">
-        <nav class="row">
+        <nav class="d-flex">
           <ul class="row-ul ">
             <li class="col-item-list">  <a href="" class="menus navbar-link">O'zMU raqamlarda</a></li>
             <li class="col-list">  <a href="https://nuu.uz/admission/" class="menu navbar-link">Qabul 2021</a> </li>
@@ -96,17 +96,18 @@
             <li class="col-list">  <a href="https://interaktiv.nuu.uz/" class="menu navbar-link">Interaktiv xizmatlar</a> </li>
             <li class="col-list">  <a href="http://rm.nuu.uz/" class="menu navbar-link">Virtual qabulxona</a> </li>
           </ul>
+          <form class="section-form position-relative" action="" method="get">
+            <input class="menu-input" type="text" name="text" placeholder="Qidiruv">
+            <button onclick="searchBtnOpen()" type="button"  class="menu-btn"><img src="./img/search.svg" width="12" height="12" alt="Seatch"></button>
+          </form> 
         </nav>
-        <form class="section-form col-2" action="" method="get">
-          <input class="menu-input" type="text" name="text" placeholder="Qidiruv">
-          <button type="submit"  class="menu-btn"><img src="./img/search.svg" width="12" height="12" alt="Seatch"></button>
-        </form> 
+        
       </div>
     </section>
     <section>
       <div class="container bar-container">
         <nav class="navbar">
-          <a class="nuu-img" href="#">
+          <a class="nuu-img" href="index.html">
             <img src="./img/nuu-logo.png" width="91" height="91" alt="nuu logo img">
           </a>
           <ul class="navbar-ul">
@@ -134,7 +135,7 @@
     </section>
 <!--================================= SITE NAVBAR ================================ / -->
     <div class="container">
-   <section class="info-fleg" >
+   <section class="info-fleg " >
        <div class="info-fleg-item">
          <h4>O‘ZBEKISTON RESPUBLIKASINING DAVLAT BAYROG‘I</h4>
          <img class="rounded mx-auto d-block mb-4" src="img/big-flag.jpg" alt="">
@@ -158,183 +159,187 @@
        </div>
      </section>
 
-       <!-- Footer -->
-  <footer class="footer w-100 ">
-    <div class="container"> 
-      <div class="footer__head">
-        <ul class="footer__head-ul row justify-content-around">
-          <li class="footer__head-li col-xl-2 col-lg-6 col-md-12 col-12">
-            <img src="./img/arrow.svg" alt="">
-            <button onclick="footCenter()" class="footer__head-btn text-start">ME'MORIY <br>hujjatlar</br></button>
-            <ul class=" flex-column footer__center">
-              <li>
-                <a class="footer__head-link " href="#">Asosiy me'yoriy hujjatlar</a>
+ 
+     <!-- Footer -->
+     <div class="flag-footer">
+      <footer class="footer w-100 ">
+        <div class="container"> 
+          <div class="footer__head">
+            <ul class="footer__head-ul row justify-content-around">
+              <li class="footer__head-li col-xl-2 col-lg-6 col-md-12 col-12">
+                <img src="./img/arrow.svg" alt="">
+                <button onclick="footCenter()" class="footer__head-btn text-start">ME'MORIY <br>hujjatlar</br></button>
+                <ul class=" flex-column footer__center">
+                  <li>
+                    <a class="footer__head-link " href="#">Asosiy me'yoriy hujjatlar</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+                <img src="./img/arrow.svg" alt="">
+                <button onclick="footCenter()" class="footer__head-btn text-start">HUJJAT <br>topshirish</br></button>
+                <ul class=" flex-column footer__center">
+                  <li >
+                    <a class="footer__head-link " href="#">Bakalavriat</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Magistratura</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Kechki ta’lim</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Sirtqi ta’lim</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Ikkinchi mutaxassislik</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+                <img src="./img/arrow.svg" alt="">
+                <button onclick="footCenter()" class="footer__head-btn text-start">TALABALAR <br>shaharchasi</br></button>
+                <ul class=" flex-column footer__center">
+                  <li >
+                    <a class="footer__head-link " href="#">Ijtimoiy obyektlar</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Tadbirlar</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Tashrif buyurish</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Tashkilotlar</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Xaritada ko'rish</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+                <img src="./img/arrow.svg" alt="">
+                <button onclick="footCenter()" class="footer__head-btn text-start">USLUBIY <br>ta'minot</br></button>
+                <ul class=" flex-column footer__center">
+                  <li >
+                    <a class="footer__head-link " href="#">Bakalavriat</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Magistratura</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">O'quv adabiyotlari</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Yangi adabiyotlar(QR)</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Dars jadvali(ZOOM)</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Yakuniy nazorat</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+                <img src="./img/arrow.svg" alt="">
+                <button onclick="footCenter()" class="footer__head-btn text-start">BOG'LANISH <br>ma'lumotlari</br></button>
+                <ul class=" flex-column footer__center">
+                  <li >
+                    <a class="footer__head-link " href="#">Aloqa</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Savol-javob</a>
+                  </li>
+                  <li>
+                    <a class="footer__head-link " href="#">Press-xizmat</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
+                <img src="./img/arrow.svg" alt="">
+                <button onclick="footCenter()" class="footer__head-btn text-start">IJTIMOIY <br>tarmoqlar</br></button>
+                <ul class=" flex-column footer__head-social footer__center">
+                  <li>
+                    <i class="fab fa fa-telegram"></i>
+                    <a class="footer__head-link " href="#">Telegram</a>
+                  </li>
+                  <li>
+                    <i class="fab fa fa-instagram"></i>
+                    <a class="footer__head-link " href="#">Instagram</a>
+                  </li>
+                  <li>
+                    <i class="fab fa fa-facebook"></i>
+                    <a class="footer__head-link " href="#">Facebook</a>
+                  </li>
+                </ul>
               </li>
             </ul>
-          </li>
-          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
-            <img src="./img/arrow.svg" alt="">
-            <button onclick="footCenter()" class="footer__head-btn text-start">HUJJAT <br>topshirish</br></button>
-            <ul class=" flex-column footer__center">
-              <li >
-                <a class="footer__head-link " href="#">Bakalavriat</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Magistratura</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Kechki ta’lim</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Sirtqi ta’lim</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Ikkinchi mutaxassislik</a>
-              </li>
-            </ul>
-          </li>
-          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
-            <img src="./img/arrow.svg" alt="">
-            <button onclick="footCenter()" class="footer__head-btn text-start">TALABALAR <br>shaharchasi</br></button>
-            <ul class=" flex-column footer__center">
-              <li >
-                <a class="footer__head-link " href="#">Ijtimoiy obyektlar</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Tadbirlar</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Tashrif buyurish</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Tashkilotlar</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Xaritada ko'rish</a>
-              </li>
-            </ul>
-          </li>
-          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
-            <img src="./img/arrow.svg" alt="">
-            <button onclick="footCenter()" class="footer__head-btn text-start">USLUBIY <br>ta'minot</br></button>
-            <ul class=" flex-column footer__center">
-              <li >
-                <a class="footer__head-link " href="#">Bakalavriat</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Magistratura</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">O'quv adabiyotlari</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Yangi adabiyotlar(QR)</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Dars jadvali(ZOOM)</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Yakuniy nazorat</a>
-              </li>
-            </ul>
-          </li>
-          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
-            <img src="./img/arrow.svg" alt="">
-            <button onclick="footCenter()" class="footer__head-btn text-start">BOG'LANISH <br>ma'lumotlari</br></button>
-            <ul class=" flex-column footer__center">
-              <li >
-                <a class="footer__head-link " href="#">Aloqa</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Savol-javob</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="#">Press-xizmat</a>
-              </li>
-            </ul>
-          </li>
-          <li class="footer__head-li col-xl-2  col-lg-6 col-md-12 col-12">
-            <img src="./img/arrow.svg" alt="">
-            <button onclick="footCenter()" class="footer__head-btn text-start">IJTIMOIY <br>tarmoqlar</br></button>
-            <ul class=" flex-column footer__head-social footer__center">
-              <li>
-                <i class="fab fa fa-telegram"></i>
-                <a class="footer__head-link " href="#">Telegram</a>
-              </li>
-              <li>
-                <i class="fab fa fa-instagram"></i>
-                <a class="footer__head-link " href="#">Instagram</a>
-              </li>
-              <li>
-                <i class="fab fa fa-facebook"></i>
-                <a class="footer__head-link " href="#">Facebook</a>
-              </li>
-              <li>
-                <a class="footer__head-link " href="http://www.uz/rus/toprating/cmd/stat/id/1834">
-                <img src="http://www.uz/plugins/top_rating/count/cnt.png?id=1834&amp;r=https%3A//nuu.uz/&amp;pg=https%3A//nuu.uz/&amp;c=Y&amp;j=N&amp;wh=1366x768&amp;px=24&amp;js=1.3&amp;col=314573&amp;t=FFFFFF&amp;p=314573" width="88" height="31" border="0" alt="www.uz reytingi">
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="back-white">
-
-    </div>
-    <div class="footer__end">
-      <div class="container position-relative">
-        <hr>
-        <div class="d-flex align-items-center">
-          <div class="col-6">
-            <ul class="nav">
-              <li class="nav-item">
-                <a target="_blank" class="nav-link text-light" href="https://old.nuu.uz/">Eski sahifa(old.nuu.uz)</a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" class="nav-link text-light" href="https://nuu.uz/gallery/">Galereya</a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" class="nav-link text-light" href="https://nuu.uz/vacancies/">Vakansiyalar</a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" class="nav-link text-light" href="https://nuu.uz/tenders/">Tenderlar</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-6">
-            <span class="text-light">© 2022. Mirzo Ulug’bek nomidagi O’zbekiston Milliy universiteti</span>
           </div>
         </div>
-      </div>
-      <div class="container position-relative">
-        <div class="cabinet">
-          <div class="cabinet__btn--group">
-            <h6 class="text-center">SHAXSIY KABINET</h6>
-              <button  class="sign__btn">Kirish</button>
+        <div class="back-white">
+    
+        </div>
+        <div class="footer__end">
+          <div class="container position-relative">
+            <hr>
+            <div class="d-flex align-items-center">
+              <div class="col-6">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a target="_blank" class="nav-link text-light" href="https://old.nuu.uz/">Eski sahifa(old.nuu.uz)</a>
+                  </li>
+                  <li class="nav-item">
+                    <a target="_blank" class="nav-link text-light" href="https://nuu.uz/gallery/">Galereya</a>
+                  </li>
+                  <li class="nav-item">
+                    <a target="_blank" class="nav-link text-light" href="https://nuu.uz/vacancies/">Vakansiyalar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a target="_blank" class="nav-link text-light" href="https://nuu.uz/tenders/">Tenderlar</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <span class="text-light">© 2022. Mirzo Ulug’bek nomidagi O’zbekiston Milliy universiteti</span>
+              </div>
+            </div>
+          </div>
+          <div class="container position-relative">
+            <div class="cabinet">
+              <div class="cabinet__btn--group">
+                <h6 class="text-center">SHAXSIY KABINET</h6>
+                  <button  class="sign__btn" onclick="modalActive()">Kirish</button>
+              </div>
+            </div>
           </div>
         </div>
+      </footer>
+      <!-- Modal oynalar -->
+    <div class="modal__cabinet ">
+      <div class="modal__cabinet--win">
+        <span onclick="modalClose()" class="close__modal"><i class="fa-solid fa-xmark"></i></span>
+        <h4>SHAXSIY KABINETGA KIRISH</h4>
+        <p class="text-center">Shahsiy kabinet faqat universitet hodimlari ishlatishi uchun mo'ljallangan!</p>
+        <form action="" class="cabinet__form w-100">
+          <input class="cabinet__btn" type="email" placeholder="Email">
+          <input class="cabinet__btn" type="password" placeholder="Password">
+          <input  class="cabinet__btn--submit" type="button" value="Kirish">
+        </form>
+        <h6>Parolingiz esdan chiqdimi?</h6>
+        <a href="https://nuu.uz/wp-login.php?action=lostpassword">Parolni tiklash</a>
       </div>
     </div>
-  </footer>
-  <!-- Modal oynalar -->
-<div class="modal__cabinet ">
-  <div class="modal__cabinet--win">
-    <span onclick="modalClose()" class="close__modal"><i class="fa-solid fa-xmark"></i></span>
-    <h4>SHAXSIY KABINETGA KIRISH</h4>
-    <p class="text-center">Shahsiy kabinet faqat universitet hodimlari ishlatishi uchun mo'ljallangan!</p>
-    <form action="" class="cabinet__form w-100">
-      <input class="cabinet__btn" type="email" placeholder="Email">
-      <input class="cabinet__btn" type="password" placeholder="Password">
-      <input onclick="modalActive()" class="cabinet__btn--submit" type="button" value="Kirish">
-    </form>
-    <h6>Parolingiz esdan chiqdimi?</h6>
-    <a href="https://nuu.uz/wp-login.php?action=lostpassword">Parolni tiklash</a>
-  </div>
-</div>
+    <div class="consultat">
+      
+    </div>
+     }
+     </div>
+ 
   <!-- Script -->
  
   <script src="js/app.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
    </div>
   </main>  
   
