@@ -591,14 +591,24 @@ header nav ul p {
   margin-top: 1rem;
   text-align: center;
 }
-.banner__carousel-wrapper {
+.banner__carousel{
   max-width: 430px;
-  overflow: hidden;
+  /* overflow-x: hidden; */
+  border: 1px solid;
+  height: 140px;
+  position: relative;
+}
+.banner__carousel-wrapper{
+  /* position: absolute; */
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: translateX(-145);
 }
 .carousel-wrapper-item {
   background-color: var(--bg-site);
   padding: 5px;
-  margin: 0 5px;
+  margin-right: 10px;
   border-radius: 5px;
   width: 135px;
 }
