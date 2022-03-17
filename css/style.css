@@ -100,22 +100,10 @@ header nav ul p {
   margin-right: 8px;
 }
 
-.dropdown-item {
-  width: 70%;
-}
-
-.dropdown-toggle {
-  color: white;
-}
-
-.dropdown-toggle:hover {
-  color: white;
-}
-
 .fa {
   font-size: 26px;
   color: white;
-  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 12px;
 }
 
@@ -124,7 +112,6 @@ header nav ul p {
 .info-fleg {
   top: 50px;
   position: relative;
-  margin-bottom: 180px;
 }
 
 .info-fleg-item {
@@ -148,17 +135,6 @@ header nav ul p {
   color: #546da5;
   font-size: 14px;
   font-family: lato;
-}
-
-/*  gerb section */
-.info-gerb {
-  margin-bottom: 200px;
-}
-/* --------------------- */
-
-/* sound section */
-.info-sound {
-  margin-bottom: 200px;
 }
 
 /* ============= SITE NAVBAR ============== */
@@ -313,14 +289,6 @@ header nav ul p {
 /* ============= SITE NAVBAR ============== / */
 
 /* Footer */
-
-.flag-footer {
-  background-color: var(--bg-site);
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
 .footer {
   background-color: var(--bg-site);
   position: absolute;
@@ -368,7 +336,7 @@ header nav ul p {
   z-index: 1;
   position: absolute;
   display: none;
-  transition: 0.5s all;
+  transition: .5s all;
 }
 .back-white.active {
   display: block;
@@ -433,7 +401,7 @@ header nav ul p {
   background-color: var(--text-color);
   color: #fff;
 }
-.footer__end hr {
+.footer__end hr{
   margin: 0 !important;
   padding: 0 !important;
 }
