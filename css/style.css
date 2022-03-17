@@ -108,6 +108,10 @@ header nav ul p {
 }
 
 /* ------------------------ */
+
+.open-hide {
+  color: white;
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -119,6 +123,10 @@ header nav ul p {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+}
+
+.sidenav-in {
+  padding: 50px 450px;
 }
 
 .sidenav a {
@@ -385,7 +393,7 @@ header nav ul p {
   z-index: 1;
   position: absolute;
   display: none;
-  transition: .5s all;
+  transition: 0.5s all;
 }
 .back-white.active {
   display: block;
@@ -450,7 +458,7 @@ header nav ul p {
   background-color: var(--text-color);
   color: #fff;
 }
-.footer__end hr{
+.footer__end hr {
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -561,6 +569,6 @@ header nav ul p {
   .language {
     position: absolute;
     left: 180px;
-    top: 25px;
+    top: 35px;
   }
 }
