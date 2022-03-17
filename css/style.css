@@ -18,6 +18,14 @@ body {
   font-family: "Lato", sans-serif;
   position: relative;
 }
+.black-back{
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 .marquee {
   white-space: nowrap;
   overflow: hidden;
@@ -344,7 +352,55 @@ header nav ul p {
 }
 
 /* ============= SITE NAVBAR ============== / */
+/* banner qismi */
+.banner{
+  width: 100%;
 
+}
+.banner-h4{
+  margin-top: 2rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.banner-p{
+  width: 80%;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 1rem;
+  text-align: center;
+}
+.banner__carousel-wrapper{
+  max-width: 430px;
+  overflow: hidden;
+}
+.carousel-wrapper-item{
+  background-color: var(--bg-site);
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+  width: 135px;
+}
+.carousel__item-head img{
+  border-radius: 5px 5px 0 0 ;
+  object-fit: cover;
+}
+.carousel__item-body{
+  height: 71px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+.carousel__item-body h6{
+  font-size: 13px;
+}
+.prev__btn,.next__btn{
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+}
+.carousel i{
+  font-size: 30px;
+}
+/* banner qismi tugadi */
 /* Footer */
 .footer {
   background-color: var(--bg-site);
